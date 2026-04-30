@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Weekly Staff
 // @namespace    browser-tools
-// @version      1.2
+// @version      1.3
 // @description  Reports
 // @match        https://www.scheduleit.com/cloud/std2/*
 // @match        https://www.scheduleit.com/cloud/std2/reports_create.php*
@@ -17,7 +17,7 @@
 // ==/UserScript==
 
 (() => {
-  /* ================= CONFIG ================= =*/
+  /* ================= CONFIG =================*/
   const MOBILE_SCALE = 0.6;
   const FILE_LABEL = "Weekly_Staff";
   const EMAIL_FILE_LABEL = "Weekly_Staff_Email_List";
