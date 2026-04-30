@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Weekly Staff
 // @namespace    browser-tools
-// @version      1.0
+// @version      1.4
 // @description  Reports
 // @match        https://www.scheduleit.com/cloud/std2/*
 // @match        https://www.scheduleit.com/cloud/std2/reports_create.php*
