@@ -17,7 +17,7 @@
 // ==/UserScript==
 
 (() => {
-  /* ================= CONFIG ================= */
+  /* ================= CONFIG ================= =*/
   const MOBILE_SCALE = 0.6;
   const FILE_LABEL = "Weekly_Staff";
   const EMAIL_FILE_LABEL = "Weekly_Staff_Email_List";
