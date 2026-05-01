@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Weekly Staff
 // @namespace    browser-tools
-// @version      1.6
+// @version      1.7
 // @description  Reports
 // @match        https://www.scheduleit.com/cloud/std2/*
 // @match        https://www.scheduleit.com/cloud/std2/reports_create.php*
@@ -1011,17 +1011,17 @@ ${panelHtml}
   }
 
   function controller() {
-    GM_registerMenuCommand(THIS_WEEK_MENU_ITEM_NAME, async () => {
+    GM_registerMenuCommand(NEXT_WEEK_MENU_ITEM_NAME, async () => {
       try {
-        await runCapture(getThisWeekReports());
+        await runCapture(getNextWeekReports());
       } catch (err) {
         alert(`Capture failed: ${err.message}`);
       }
     });
 
-    GM_registerMenuCommand(NEXT_WEEK_MENU_ITEM_NAME, async () => {
+    GM_registerMenuCommand(THIS_WEEK_MENU_ITEM_NAME, async () => {
       try {
-        await runCapture(getNextWeekReports());
+        await runCapture(getThisWeekReports());
       } catch (err) {
         alert(`Capture failed: ${err.message}`);
       }
