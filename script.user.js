@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Weekly Staff
 // @namespace    browser-tools
-// @version      1.5
+// @version      1.6
 // @description  Reports
 // @match        https://www.scheduleit.com/cloud/std2/*
 // @match        https://www.scheduleit.com/cloud/std2/reports_create.php*
@@ -22,8 +22,8 @@
   const FILE_LABEL = "Weekly_Staff";
   const EMAIL_FILE_LABEL = "Weekly_Staff_Email_List";
 
-  const THIS_WEEK_MENU_ITEM_NAME = "This Week (Fri)";
-  const NEXT_WEEK_MENU_ITEM_NAME = "Next Week (Sat, Sun)";
+  const THIS_WEEK_MENU_ITEM_NAME = "This Week (Sat, Sun)";
+  const NEXT_WEEK_MENU_ITEM_NAME = "Next Week (Fri)";
   const FIXED_DATE_RANGE_MENU_ITEM_NAME = "Fixed Date Range";
 
   /*
