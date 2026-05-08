@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Weekly Staff
 // @namespace    browser-tools
-// @version      1.8
+// @version      1.9
 // @description  Reports
 // @match        https://www.scheduleit.com/cloud/std2/*
 // @match        https://www.scheduleit.com/cloud/std2/reports_create.php*
@@ -532,8 +532,8 @@ table { max-width: 100% !important; }
 html { scroll-behavior: smooth; }
 
 .tm-report-wrap .res_color_inner {
-  padding-top: 5px !important;
-  padding-bottom: 5px !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
 }
 
 .tm-report-wrap a.tm-row-link,
